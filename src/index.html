@@ -13,6 +13,7 @@
       <div class="header__body">
         <div class="header__logo">
           <a href="#" class="logo">
+            <img src="/images/logo.svg" alt="" />
             <!-- Logo goes here -->
           </a>
         </div>
@@ -23,7 +24,24 @@
             </li>
             <li class="menu-item">
               <a href="#">Serviços</a>
-            </li>
+              <ul class="sub-menu">
+                <li class="sm-item-first">Nossos Serviços 01</li>
+                <li>Nossos Serviços 02
+                  <ul class="sub-menu sub-menu-second">
+                    <li>
+                      Sub Nossos Serviços 01
+                    </li>
+                    <li >
+                      Sub Nossos Serviços 02
+                    </li>
+                    <li>
+                      Sub Nossos Serviços 03
+                    </li>
+                  </ul>
+                </li>
+                <li class="">Nossos Serviços 03</li>
+              </ul>             
+              </li>
             <li class="menu-item">
               <a href="#">Equipe</a>
             </li>
@@ -52,6 +70,29 @@
 
   <!-- start-hero -->
   <section class="hero">
+    <div class="c-background">
+      <img class="c-background__image" src="images/background.png">
+      <div class="container">
+        <div class="home">
+          <div>
+            <img src="/images/icon-arrow-left.svg" alt="" />
+          </div>
+          <div>
+            <h1>Lorem Ipsum is simply dummy!</h1>
+            <p>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five</p>
+          </div>
+          <div>
+            <img src="/images/icon-arrow-right.svg" alt="" />
+          </div>
+        </div>
+        <div class="test">
+          <div class="btn-home">
+            <button>Button</button>
+            <img src="images/feather-arrow-right.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
     <!--
       - You should put your markup here.
       - Don't forget to follow the BEMCSS conventional classes.
@@ -79,6 +120,28 @@
           </div>
         </div>
       </div>
+      <div class="card-short-content">
+        <figure class="card-short-content__figure">
+          <img src="/images/awesome-bolt.svg" alt="" />
+        </figure>
+        <div class="card-short-content__inner">
+          <h3 class="card-short-content__title">Nam tortor quaeget</h3>
+          <div class="the-content">
+            <p>Lorem Ipsum has been the industry’s standard dummy text ever since</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-short-content">
+        <figure class="card-short-content__figure">
+          <img src="/images/awesome-steam-symbol.svg" alt="" />
+        </figure>
+        <div class="card-short-content__inner">
+          <h3 class="card-short-content__title">Maecenas vehicula tincidunt</h3>
+          <div class="the-content">
+            <p>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <!-- /end-short-content -->
@@ -87,6 +150,49 @@
   <section class="blog">
     <div class="container">
       <div class="card-post">
+        <figure>
+          <img src="/images/componente13.png">
+        </figure>
+        <div class="teste">
+          <label>Category</label>
+          <span>02/12/2021</span>
+        </div>
+        <h3>Lorem Ipsum is simply dummy!</h3>
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
+        <!--
+          - Create your own card-post markup;
+          - Style it.
+          - Add it to a grid list.
+          - Don't forget that all the page should be responsible.
+         -->
+      </div>
+      <div class="card-post">
+        <figure>
+          <img src="/images/componente12.png">
+        </figure>
+        <div class="teste">
+          <label>Category</label>
+          <span>02/12/2021</span>
+        </div>
+        <h3>Lorem Ipsum is simply dummy!</h3>
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
+        <!--
+          - Create your own card-post markup;
+          - Style it.
+          - Add it to a grid list.
+          - Don't forget that all the page should be responsible.
+         -->
+      </div>
+      <div class="card-post">
+        <figure>
+          <img src="/images/componente11.png">
+        </figure>
+        <div class="teste">
+          <label>Category</label>
+          <span>02/12/2021</span>
+        </div>
+        <h3>Lorem Ipsum is simply dummy!</h3>
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took</p>
         <!--
           - Create your own card-post markup;
           - Style it.
@@ -100,6 +206,17 @@
   
   <!-- start-cta -->
   <div class="cta">
+    <div class="container">
+      <div>
+        <h2>Lorem Ipsum is simply dummy</h2>
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galery of type and scrambled it to make a type specimen<p>
+      </div>
+      <div class="btn-arrow">
+        <button>Button</button>
+        <img src="/images/feather-arrow-right.png" >
+      </div>
+    </div>
     <!--
       - Put your CTA (call-to-action) markup here.
     -->
@@ -108,6 +225,10 @@
   
   <!-- start-footer -->
   <footer class="footer">
+    <div>
+      <span>Todos os direitos reservados</span>
+      <img src="/images/grupo25.svg" alt='logo' />
+    </div>
     <!--
       - Put your Footer markup here.
     -->

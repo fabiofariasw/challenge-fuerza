@@ -1,0 +1,33 @@
+.menu-item {
+  width: 150px;
+
+  &nth:last-child(2) {
+    //width: 190px;
+    border-bottom: 2px solid #000;
+  }
+
+  &:hover {
+    border-bottom: 5px solid #00e2bf;
+  }
+
+ 
+
+  // .visible {
+  //   cursor: pointer;
+
+  //   &:hover ul {
+  //     display: block;
+  //     margin-left: 140px;
+  //     // border: 3px solid #000;
+  //   }
+  // }
+
+  // .menu-sub-services {
+  //   display: none;
+  // }
+
+}
+
+.menu-item :nth-child(2) {
+  width: 190px;
+}

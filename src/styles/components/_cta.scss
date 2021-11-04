@@ -1,0 +1,47 @@
+.cta {
+  align-items: center;
+  background: linear-gradient(to right, #00ffb1, #0062ff);
+  color: #fff;
+  display: flex;
+  height: 240px;
+  justify-content: center;
+
+  .container {
+    align-items: center;
+    display: flex;
+
+    div {
+      max-width: 790px;
+    }
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .btn-arrow {
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    height: 60px;
+    padding: 10px 20px;
+    transition: all 3s;
+
+    &:hover img {
+      // height: 23px;
+      // width: 60px;
+      margin-left: 8px;
+      transform: scale(1.5, 1);
+    }
+    
+    button {
+      background: transparent;
+      border: transparent;
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+
+}

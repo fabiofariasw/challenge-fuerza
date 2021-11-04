@@ -4,8 +4,9 @@
  *
  */
 .header {
-  background-color: #444;
+  background: #fff;
   left: 0;
+  opacity: 100%;
   position: fixed;
   right: 0;
   top: 0;
@@ -24,6 +25,7 @@
 
     a {
       display: inline-block;
+      font-family: Arial;
     }
 
     img {

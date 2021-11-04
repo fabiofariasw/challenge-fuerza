@@ -30,6 +30,12 @@ $body-color: #222;
 $font-family-sans-serif: 'Helvetica Neue', sans-serif;
 $font-family-serif: Times, 'Times New Roman', serif;
 
+@font-face {
+  font-family: 'Futura';
+  src: local('Futura') url('./../fonts/futura/futura\ medium\ bt.ttf') format('trueType');
+}
+
+
 // Font sizes.
 $font-sizes: (
   xl: 30px,

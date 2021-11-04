@@ -1,6 +1,9 @@
 .c-background {
+  // img {
+  // }
+    
   &__image {
-    @include position-fill(absolute);
+    @include position-fill(inline-block);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,7 +15,8 @@
   }
 
   .container {
-    position: relative;
+    position: absolute;
+    top: 50vh;
   }
 }
 
