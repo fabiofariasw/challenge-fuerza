@@ -1,0 +1,14 @@
+.text {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+
+  p {
+    max-width: px-to-rem(840px);
+  }
+
+  div + div {
+    color: #fff;
+  }
+}

@@ -4,7 +4,7 @@
  *
  */
 .menu-main {
-  align-items: center;
+  // align-items: center;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -22,12 +22,13 @@
     height: 90px;
     justify-content: center;
     line-height: (18/16);
+    margin-bottom: -5px;
     size: 16px;
     text-decoration: none;
 
-    &:hover {
-      border-bottom: 5px solid #00e2bf;
-    }
+    // &:hover {
+    //   border-bottom: 5px solid #00e2bf;
+    // }
   }
 
   li:nth-child(2) {
@@ -42,6 +43,8 @@
 
 .menu li:hover > .sub-menu {
   display: block;
+  margin-top: 5px;
+  text-align: center;
 }
 
 .sub-menu {

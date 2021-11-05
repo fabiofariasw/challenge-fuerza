@@ -1,22 +1,31 @@
 .c-background {
-  // img {
-  // }
-    
+  background: #676c72;
+  height: 91.3vh;
+  // width: 100%;
+
   &__image {
-    @include position-fill(inline-block);
+    @include position-fill(relative);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 43%;
+
   }
 
   &--fill {
     @include position-fill(absolute);
-    pointer-events: none;
+    // padding: 0 px-to-rem(200px);
+    // pointer-events: none;
+    top: px-to-rem(350px);
+
+    @media (max-width: 600px) {
+      top: 40vh;
+
+    }
   }
 
   .container {
-    position: absolute;
-    top: 50vh;
+    position: relative;
   }
 }
 

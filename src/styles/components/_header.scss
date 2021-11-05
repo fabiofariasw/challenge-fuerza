@@ -13,12 +13,14 @@
   z-index: 20;
 
   &__body {
-    align-items: center;
+    // align-items: center;
     display: flex;
     height: $header-height-desktop;
   }
 
   &__logo {
+    align-items: center;
+    display: flex;
     margin-right: px-to-rem(150px);
     max-width: px-to-rem(300px);
     width: 100%;
@@ -32,6 +34,14 @@
       @extend %img-responsive;
     }
   }
+
+  &__menu {
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+
+
 
   &__actions {
     margin-left: auto;
