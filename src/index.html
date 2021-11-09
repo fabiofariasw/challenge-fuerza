@@ -4,8 +4,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="preload" href="./fonts/futura/Futura-Bold.woff" as="font" type="font/woff2" crossorigin> -->
   <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
+<!-- <style>
+  @font-face {
+    font-family: Futura;
+    src: url("./fonts/futura/futura-medium-bt.ttf") font('opentype');
+
+  /* @font-face {
+    font-family: "Gotham Black";
+    src: url(./fonts/gotham/GothamMedium.ttf);
+  } */
+</style> -->
 <body>
   <!-- start-header -->
   <header class="header" data-component="header">
@@ -40,7 +51,7 @@
                   </ul>
                 </li>
                 <li class="">Nossos Serviços 03</li>
-              </ul>             
+              </ul>
               </li>
             <li class="menu-item">
               <a href="#">Equipe</a>
@@ -87,13 +98,14 @@
               <img src="/images/icon-arrow-right.svg" alt="" />
             </div>
           </div>
-          <div class="c-button">
-            <div class="btn">
-              <button class="btn-primary">Button</button>
-              <img src="images/feather-arrow-right.png" alt="" />
-            </div>
-          </div>
-          
+          <!-- <div class="c-button"> -->
+            <!-- <div class="btn"> -->
+              <button class="btn-primary">Button
+                <img src="images/feather-arrow-right.png" alt="" />
+              </button>
+            <!-- </div> -->
+          <!-- </div> -->
+
         </div>
       <!-- </div> -->
     </div>
@@ -207,7 +219,7 @@
     </div>
   </section>
   <!-- /end-blog -->
-  
+
   <!-- start-cta -->
   <div class="cta">
     <div class="container">
@@ -216,17 +228,18 @@
         <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
           when an unknown printer took a galery of type and scrambled it to make a type specimen<p>
       </div>
-      <div class="btn-arrow">
-        <button>Button</button>
-        <img src="/images/feather-arrow-right.png" >
-      </div>
+      <!-- <div class="btn-arrow"> -->
+        <button class="btn-secondary">Button
+          <img src="/images/feather-arrow-right.png" >
+        </button>
+      <!-- </div> -->
     </div>
     <!--
       - Put your CTA (call-to-action) markup here.
     -->
   </div>
   <!-- /end-cta -->
-  
+
   <!-- start-footer -->
   <footer class="footer">
     <div>

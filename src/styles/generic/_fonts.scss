@@ -4,8 +4,10 @@
     convert your fonts.
 \* ------------------------------------------------------------ */
 
-
-// @font-face {
-//   font-family: gotham;
-//   src: url('../../fonts/gotham/Gotham-Black.otf');
-// }
+@font-face {
+  font-display: swap;
+  font-family: 'Futura';
+  font-style: 'normal';
+  font-weight: 500;
+  src: url('./../../fonts/futura/Futura-Bold.woff2') format('woff2');
+}

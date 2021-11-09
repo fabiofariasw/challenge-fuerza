@@ -1,7 +1,7 @@
 /**
- * 
+ *
  * External dependencies.
- * 
+ *
  */
 const { resolve, dirname } = require('path');
 
@@ -22,9 +22,9 @@ module.exports.distPath = (basePath = '', destPath = '') => (
 );
 
 /**
- * 
+ *
  * Source paths.
- * 
+ *
  */
 module.exports.srcScripts = (destPath) => (
   exports.srcPath('scripts', destPath)
@@ -35,23 +35,23 @@ module.exports.srcStyles = (destPath) => (
 module.exports.srcImages = (destPath) => (
   exports.srcPath('images', destPath)
 );
-module.exports.srcFonts = (destPath) => (
-  exports.srcPath('fonts', destPath)
+module.exports.srcFonts = () => (
+  exports.srcPath('src/fonts')
 );
 
 /**
- * 
+ *
  * Dist paths.
- * 
+ *
  */
 module.exports.distScripts = (destPath) => (
   exports.distPath('scripts', destPath)
 );
 
 /**
- * 
+ *
  * Extensions testers.
- * 
+ *
  */
 module.exports.tests = {
   scripts: /\.(js|jsx)$/,
